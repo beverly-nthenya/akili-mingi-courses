@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>🎀Akili Mingi Online Courses🎀</title>
+		<link rel="stylesheet" href="styles/styles.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<img src="images/logo.png" style="width:60px; height:50px;">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="course.html">Courses</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<button onclick="clickButton()">Click Here</button>
+		<button ondblclick="dblclickButton()">Double Click Here</button>
+		<section class="cover">
+			<h3>Welcome to Akili Mingi Online Courses</h3>
+			<p>We offer courses in web design, computer essentials, cyber security, network administration, programming,<br>database management and mobile app development.</p>
+		</section>
+		<h2 style="text-align:center; font-size:30px;">Top Rated Courses</h2>
+		<section>
+			<!--We now use the div tag with class="courses" to group courses in one place.-->
+			<div class="courses">
+				<!--We now create another div tag with each course. Each course card has image, course title, course description, button(register/buy).-->
+				<div class="course-card">
+					<img src="images/web.jpg"><!--Course icon/image-->
+					<h3>Web Design in HTML</h3><!--Course title-->
+					<p>HTML basics to advanced</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/essentials.jpg"><!--Course icon/image-->
+					<h3>Computer Essentials</h3><!--Course title-->
+					<p>Introduction to computers</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/programming.jpg"><!--Course icon/image-->
+					<h3>Introduction to Programming</h3><!--Course title-->
+					<p>Fundamentals of programming</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/development.jpg"><!--Course icon/image-->
+					<h3>Web Development</h3><!--Course title-->
+					<p>Building websites from scratch</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/algorithms.jpg"><!--Course icon/image-->
+					<h3>Data Structures and Algorithms</h3><!--Course title-->
+					<p>Essential data structures and algorithms</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/cybersecurity.jpg"><!--Course icon/image-->
+					<h3>Cybersecurity Essentials</h3><!--Course title-->
+					<p>Core principles of cybersecurity</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/artificial.jpg"><!--Course icon/image-->
+					<h3>Artificial Intelligence</h3><!--Course title-->
+					<p>Artificial intelligence and machine learning</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/management.jpg"><!--Course icon/image-->
+					<h3>Database Management Systems</h3><!--Course title-->
+					<p>Design and manage databases</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+				<div class="course-card">
+					<img src="images/mobile.jpg"><!--Course icon/image-->
+					<h3>Mobile App Development</h3><!--Course title-->
+					<p>Create mobile applications</p><!--Course description-->
+					<button>Buy Course</button>
+				</div>
+			</div>
+		</section>
+		<p id="message">This is the last paragraph: showing how to use JavaScript</p>
+		<footer>
+		<script>
+			let message=document.getElementById("message");
+			//You can add JavaScript code here
+			function clickButton(){
+				alert("You clicked the button");//alert shows a popup message
+				}
+			function dblclickButton(){
+				alert("You double clicked the button");//alert shows a popup message
+				}
+		</script>
+		<p>&copy Akili Mingi 2025 - All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
